@@ -2,7 +2,7 @@ import os
 print("Welcome to the Web Builder! \n Author: Prayag Yadav\n")
 List = os.listdir()
 #List.remove("default.html")
-List = [ i for i in List if i not in ['default.html', 'builder.py', 'index.html'] ]
+List = [ i for i in List if i not in ['LICENSE', 'README.md', '.git', 'default.html', 'builder.py', 'index.html'] ]
 Location = os.getcwd()
 print("List of directories: \n", List)
 with open("default.html", "r") as template :
