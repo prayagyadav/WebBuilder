@@ -14,7 +14,7 @@ def makeindex(directory_name):
         headingblock = f"<h1>{heading}</h1>\n</br>\n"
         Hyperlinks = []
         for f in List :
-            Hyperlinks.append(f"<h3><a href='{f}'>{f}</a></h3>\n</br>\n")
+            Hyperlinks.append(f"<a href='{f}'>{f}</a>\n</br>\n")
         index.writelines(l+"\n" for l in lines[:5])
         index.writelines(titleblock)
         index.writelines(breadcrumb)
