@@ -1,0 +1,16 @@
+{
+    "border": "{{int(1, 5)}}px {{random(solid, dotted, dashed)}} {{color()}}",
+    "coordinates": {
+      "type": "array",
+      "count": 2,
+      "items": "{{float(0, 120, 5)}}"
+    },
+    "password": "xX{{animal()}}-{{string(6, 10, *)}}",
+
+    "border": "1px dashed turquoise",
+    "coordinates": [
+      67.60638,
+      76.92205
+    ],
+    "password": "xXeagle-********"
+  }
